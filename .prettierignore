@@ -1,0 +1,6 @@
+node_modules/
+_build/
+.meteor/local/
+public/build-assets/
+public/build-chunks/
+package-lock.json

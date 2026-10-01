@@ -3,6 +3,8 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
@@ -26,6 +28,7 @@
     "@types/node": "^22.10.6",
     "@types/react": "^18.2.5",
     "@types/react-dom": "^18.2.4",
+    "prettier": "3.9.9",
     "react-refresh": "^0.17.0",
     "ts-checker-rspack-plugin": "^1.5.2",
     "typescript": "^7.0.2"
