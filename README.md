@@ -4,7 +4,11 @@ A small email-sequence app built with Meteor 3, React and TypeScript.
 
 The goal is to use Meteor the way it is meant to be used: server-authoritative
 and reactive end to end. No `autopublish`, no `insecure` — every read goes
-through an explicit publication, every write through a validated method.
+through an explicit publication, and no write happens outside a validated
+method.
+
+Status: phase 1. The Meteor skeleton and the publication layer are in place;
+the domain model and the first methods are still to come.
 
 ## Stack
 
